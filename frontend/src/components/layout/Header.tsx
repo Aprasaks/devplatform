@@ -50,9 +50,12 @@ export default function Header() {
           {/* Right - Login Icon & Mobile Menu Button */}
           <div className="flex items-center space-x-2">
             {/* Login Button */}
-            <button className="p-2 text-gray-700 hover:text-indigo-600 hover:bg-indigo-50 rounded-lg transition-colors">
+            <Link
+              href="/login"
+              className="p-2 text-gray-700 hover:text-indigo-600 hover:bg-indigo-50 rounded-lg transition-colors"
+            >
               <RiLoginBoxLine size={24} />
-            </button>
+            </Link>
 
             {/* Mobile Menu Button */}
             <button
